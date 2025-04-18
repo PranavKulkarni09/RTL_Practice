@@ -1,4 +1,4 @@
-module binary2bcd (bin_in, digit0, digit1, digit2, bcd_out);
+module binary_to_bcd (bin_in, digit0, digit1, digit2, bcd_out);
   input  logic [7:0] bin_in;
   output logic [3:0] digit0, digit1, digit2;
   output logic [11:0] bcd_out;
