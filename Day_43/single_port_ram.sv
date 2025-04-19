@@ -2,7 +2,7 @@ module single_port_ram (data, address, en, write_enable, clk, q);
   input [7:0] data;
   input [5:0] address;
   input en;
-  input write_eable;
+  input write_enable;
   input clk;
   output [7:0] q;
 
