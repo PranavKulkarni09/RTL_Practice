@@ -1,0 +1,22 @@
+module pwm_gen_tb();
+
+  reg clk;
+  wire [7:0] led;
+
+  pwm_gen DUT (.clk(clk), .led(led));
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    $display("Time\tCounter Value");
+    $monitor("%0t\tLED = %b", $time, led);
+  end
+  
+  initial begin
+    #2000 $finish;
+  end
+
+endmodule
