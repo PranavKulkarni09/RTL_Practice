@@ -1,4 +1,4 @@
-module tb_event_counter;
+module tb_event_counter();
 
   logic clk, rst, enable, event_in;
   logic [7:0] threshold;
