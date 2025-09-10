@@ -11,9 +11,6 @@ module tb_event_counter;
   always #5 clk = ~clk;
 
   initial begin
-    $dumpfile("event_counter.vcd");
-    $dumpvars(0, tb_event_counter);
-
     rst = 1; enable = 0; event_in = 0; threshold = 8'd5;
     #20 rst = 0;
 
@@ -35,4 +32,8 @@ module tb_event_counter;
     #50 $finish;
   end
 
+  initial begin
+    $dumpfile("event_counter.vcd");
+    $dumpvars();
+  end
 endmodule
