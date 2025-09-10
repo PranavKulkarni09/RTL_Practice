@@ -1,4 +1,4 @@
-module tb_simple_dual_port_ram;
+module tb_simple_dual_port_ram();
 
   parameter DATA_WIDTH = 8;
   parameter ADDR_WIDTH = 4;
