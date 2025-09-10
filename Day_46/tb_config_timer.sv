@@ -37,6 +37,6 @@ module tb_config_timer();
   
   initial begin
     $dumpfile("timer_simple.vcd");
-    $dumpvars(0, tb_configurable_timer_simple);
+    $dumpvars();
   end
 endmodule
