@@ -8,3 +8,4 @@
 9. Fibonacci Generator                            **|** Cadence, Synopsys    **|** ✅
 10. Counting Ones                                 **|** Microsoft, ARM       **|** ✅
 12. Trailing Zeros                                **|** Tesla, Microsoft     **|** ✅
+13. One-Hot Detector                              **|** Broadcom             **|** 
