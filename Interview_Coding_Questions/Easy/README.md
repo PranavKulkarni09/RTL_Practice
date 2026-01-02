@@ -9,3 +9,4 @@
 10. Counting Ones                                 **|** Microsoft, ARM       **|** ✅
 12. Trailing Zeros                                **|** Tesla, Microsoft     **|** ✅
 13. One-Hot Detector                              **|** Broadcom             **|** ✅
+14. Stopwatch Timer                               **|** Intel, Cadence       **|** ✅
