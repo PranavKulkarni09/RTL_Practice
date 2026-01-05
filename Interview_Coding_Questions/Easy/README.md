@@ -11,4 +11,3 @@
 13. One-Hot Detector                              **|** Broadcom             **|** ✅
 14. Stopwatch Timer                               **|** Intel, Cadence       **|** ✅
 15. Sequence Detector                             **|** Apple, AMD           **|** ✅
-16. Divisible by 3                                **|** Google, Broadcom     **|** ✅
