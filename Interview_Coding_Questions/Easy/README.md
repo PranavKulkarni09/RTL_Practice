@@ -10,3 +10,4 @@
 12. Trailing Zeros                                **|** Tesla, Microsoft     **|** ✅
 13. One-Hot Detector                              **|** Broadcom             **|** ✅
 14. Stopwatch Timer                               **|** Intel, Cadence       **|** ✅
+15. Sequence Detector                             **|** Apple, AMD           **|** ✅
