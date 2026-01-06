@@ -8,10 +8,8 @@ module model #(parameter
   logic [DATA_WIDTH-1:0] temp;
 
   always@(*) begin
-    int temp_dw = DATA_WIDTH;
     for(int i = 0; i<DATA_WIDTH; i++) begin
-      temp[temp_dw-1] = din[i];
-      temp_dw--;
+      temp[DATA_WIDTH-1-i] = din[i];
     end
     if(temp===din) begin
       dout = 1;
