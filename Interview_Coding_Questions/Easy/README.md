@@ -12,3 +12,4 @@
 14. Stopwatch Timer                               **|** Intel, Cadence       **|** ✅
 15. Sequence Detector                             **|** Apple, AMD           **|** ✅
 16. Palindrome Detector                           **|** Tesla, Synopsys      **|** ✅
+17. Divide-by-Evens Clock Divider                 **|** Intel, ARM           **|** ✅
